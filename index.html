@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+
+    <!--Libraries-->
+    <script src="lib/angular.js"></script>
+    <script src="lib/ui-router.js"></script>
+
+    <!--Modules-->    
+    <script src="src/menuapp.module.js"></script>
+    <script src="src/data/data.module.js"></script>
+    
+
+    <!--Artifacts-->
+    <script src="src/data/menudata.service.js"></script>
+
+    <script src="src/data/Categories.controller.js"></script>
+    <script src="src/data/categories.component.js"></script>
+
+    <script src="src/data/Items.controller.js"></script>
+    <script src="src/data/items.component.js"></script>
+
+    <!--Routes-->
+    <script src="src/routes.js"></script>
+
+  </head>
+
+
+  <body ng-app="MenuApp">
+    
+
+    <ui-view></ui-view>
+  </body>
+
+
+</html>
